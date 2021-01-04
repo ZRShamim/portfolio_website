@@ -8,23 +8,26 @@ h1{
 .portfolio-header-name{
     color: orangered;
 }
-/*Top section*/
-.top-info{
+
+.half_area{
     width: 40%;
     float: left;
     margin: 4%; 
     padding-left: 2%;
 }
-.top-info img{
+.half_area img{
     width: 100%;
 }
+
 .top-section{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding: 50px;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightSalmon, tomato);
@@ -34,13 +37,7 @@ section{
     font-weight: 700;
 }
 
-/*Mid section*/
-.mid-info{
-    width: 40%;
-    float: right;
-    margin: 4%; 
-    padding-left: 2%;
-}
-.mid-info img{
-    width: 100%;
+.mid-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
 }
