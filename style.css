@@ -3,9 +3,27 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
 }
-.portfolio-header-name{
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    font-size: 15px;
+}
+
+p{
+    color: dimgray;
+    text-align: justify;
+}
+
+.orangered-highlight{
     color: orangered;
 }
 
@@ -40,4 +58,28 @@ section{
 .mid-section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    background-position:right ;
+}
+
+.shadow-box{
+    box-shadow: 10px 10px 30px gray;
+    height: 75%;
+}
+
+.bottom-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
 }
