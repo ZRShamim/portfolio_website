@@ -1,0 +1,17 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+.portfolio-header-name{
+    color: orangered;
+}
+.top{
+    width: 40%;
+    float: left;
+    margin-left: 3%; ;
+}
+.top img{
+    width: 100%;
+}
